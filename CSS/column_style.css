@@ -1,0 +1,81 @@
+.body {
+ background-color: yellow;
+}
+
+.column {
+	width: 450px;
+	background-color:#faebd7;
+	border: 2px solid black;
+	border-radius: 54
+}
+
+.column_1:nth-child(-n+5){
+	color: orange;
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+	Border:1px solid black;
+	border-radius: 254;
+	cursor: pointer;
+}
+
+.column_2:nth-child(-n+5) {
+	color: pink;
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+	Border: 1px solid black;
+	border-radius: 254;
+	cursor: pointer;
+}
+
+.column 3:nth-child(-n+5) {
+	color: light-green;
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+	Border: 1px solid black;
+	border-radius: 254;
+	cursor: pointer;
+}
+
+.column 4:nth-child(-n+5) {
+	color: blue;
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+	Border: 1px solid black;
+	border-radius: 254;
+	cursor: pointer;
+}
+
+.column 5:nth-child(-n+5) {
+	color: magenta;
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+	Border: 1px solid black;
+	border-radius: 254;
+	cursor: pointer;
+}
+
+
+.rows:nth-child(-n+5) {
+	color: light-grey;
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+	Border: 1px solid black;
+	border-radius: 254;
+	cursor: pointer;
+}
+
+.columns:hover {
+  background: #13b4ff;
+}
